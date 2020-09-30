@@ -8,16 +8,16 @@
 
 import Foundation
 class CellItemTable{
-    var Image:String?
-    var title:String?
-    var date:String?
-    var Price:String?
+    var image: String?
+    var title: String?
+    var date: String?
+    var price: String?
     
-    init(Image:String, title:String, date:String, Price:String) {
-        self.Image = Image
+    init(image:String, title:String, date:String, price:String) {
+        self.image = image
         self.title = title
         self.date = date
-        self.Price = Price
+        self.price = price
     }
 
 }
